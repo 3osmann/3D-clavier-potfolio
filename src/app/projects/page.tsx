@@ -11,53 +11,45 @@ import "@splidejs/react-splide/css";
 const PROJECTS = [
   {
     id: 1,
-    name: "Coding Ducks",
-    description: `Dive into CodingDucks, a fusion of CodePen's creative playground with LeetCode's problem-solving realm.
-Whether you're a newbie or a seasoned coder, join the community to paddle through coding adventures and let your
-creativity soar.`,
-    link: "https://www.codingducks.live",
-    images: [
-      "/assets/projects-screenshots/codingducks/1.png",
-      "/assets/projects-screenshots/codingducks/2.png",
-      "/assets/projects-screenshots/codingducks/3.png",
-      "/assets/projects-screenshots/codingducks/4.png",
-      "/assets/projects-screenshots/codingducks/5.png",
-    ],
+    name: "Akakus Real Estate",
+    description: `A real estate sales platform built with Laravel 10 and MySQL. Features secure payment gateways, CRUD operations for property listings, and a responsive Bootstrap UI.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/akakus/landing.png"],
   },
   {
     id: 2,
-    name: "Ghost Chat",
-    description: `GhostChat is an anonymous messaging app that allows users to connect without revealing their identities. 
-Join the community for intriguing conversations and mysterious encounters.`,
-    link: "https://ghostchatt.vercel.app/",
-    images: [
-      "/assets/projects-screenshots/ghostchat/1.png",
-      "/assets/projects-screenshots/ghostchat/2.png",
-      "/assets/projects-screenshots/ghostchat/3.png",
-      "/assets/projects-screenshots/ghostchat/4.png",
-    ],
+    name: "Harmud School Portal",
+    description: `A real estate portal designed for private schools, developed with Laravel 10. Features responsive design and robust database architecture.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/harmud/landing.png"],
   },
   {
     id: 3,
-    name: "Coupon Luxury",
-    description: `Welcome to CouponLuxury, your destination for exclusive discounts and savings. Explore the platform to find the
-best deals on luxury brands and products. Join our savvy community of shoppers and unlock access to premium coupons.`,
-    link: "https://www.couponluxury.com/",
-    images: [
-      "/assets/projects-screenshots/couponluxury/1.png",
-      "/assets/projects-screenshots/couponluxury/2.png",
-      "/assets/projects-screenshots/couponluxury/3.png",
-      "/assets/projects-screenshots/couponluxury/4.png",
-      "/assets/projects-screenshots/couponluxury/5.png",
-    ],
+    name: "Tunisie Telecom Store Locator",
+    description: `A mobile web app for store location management built with Symfony, featuring REST API endpoints and hybrid app integration for seamless location tracking.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/tunisietelecom/landing.png"],
   },
   {
     id: 4,
-    name: "JNTUA Results Analyser",
-    description: `the go-to app for JNTUA students, empowering them to analyze, compare, and view classwise results effortlessly.
-     Dive into your academic journey with ease, track your progress, and gain valuable insights.`,
-    link: "/projects/4",
-    images: ["/assets/projects-screenshots/jra/1.png"],
+    name: "CapTb HR & Accounting",
+    description: `An HR and accounting management system developed with PHP5, C, and Java/JSP. Manages employee records, payroll, and financial data with Bootstrap frontend.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/captb/landing.png"],
+  },
+  {
+    id: 5,
+    name: "Mairie-Facile",
+    description: `A municipal services portal built with Laravel Breeze featuring user authentication and service request management, deployed on OVH hosting.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/mairiefacile/landing.png"],
+  },
+  {
+    id: 6,
+    name: "Travelin",
+    description: `A travel agency WordPress site with booking engine integration, custom Elementor blocks, and responsive layouts for multi-region support.`,
+    link: "#",
+    images: ["/assets/projects-screenshots/travelin/landing.png"],
   },
 ];
 function Page() {
